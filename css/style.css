@@ -139,9 +139,11 @@ header {
 }
 .container .col-lg-4 h4 {
   font-size: 3rem;
-  margin-bottom: : 30px;
+  margin-bottom:30px;
 }
-
+.container .col-lg-4 p{
+  font-size: 1.rem;
+}
 
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
