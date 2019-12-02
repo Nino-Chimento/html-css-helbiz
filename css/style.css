@@ -152,9 +152,26 @@ header {
 }
 .forest {
   width: 90%;
-  margin right: auto;
-  margin-left: auto;
-  height: 400px;
+  margin : auto;
+  margin-top: 350px;
+  height: 600px;
+  background-image: url(../img/ScooterHelbiz-2400.jpg);
+}
+.margin_title_forest {
+  margin-top: 200px;
+  color: white;
+}
+.margin_title_forest h2{
+  font-size: 5em;
+  margin-bottom: 10px;
+}
+.margin_title_forest p {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+}
+.margin_title_forest a {
+  color: white;
+  font-size: 2.5em;
 }
 @media screen and (max-width:992px) and (min-width:768px)
 {
@@ -176,7 +193,6 @@ header {
   }
 }
 
-
 @media screen and (max-width: 768px) {
   body {
     font-size: 8px;
@@ -184,9 +200,9 @@ header {
   .xs_display_block {
     display: block;
   }
-  /* .xs_display_none {
+  .xs_display_none {
     display: none;
-  } */
+  }
   .header-top {
     padding: 0 2%;
   }
