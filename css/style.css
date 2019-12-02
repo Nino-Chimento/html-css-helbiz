@@ -11,6 +11,12 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+.text_align {
+  text-align:center;
+}
+.margin_top {
+  margin-top: 60px;
+}
 .menu_inline {
   list-style: none;
 }
@@ -88,7 +94,32 @@ header {
   font-size: 1.5em;
   margin-bottom: 0.8rem;
 }
+.img_logo_top_main {
+  width: 40%;
+}
 
+.img_bike {
+  max-width: 200px;
+}
+.bike .col-lg-5 h3{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.bike .col-lg-5 a {
+  text-decoration: none;
+  font-size: 2.5em;
+  color: blue;
+  margin-bottom: 30px;
+}
+.bike .col-lg-5 a::after {
+  content: ">";
+  font-size: 1em;
+  padding-left: 4px;
+}
+.color_padding {
+  background-color:  lightgrey;
+  padding: 50px 0;
+}
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
     padding: 0 2%;
@@ -108,6 +139,7 @@ header {
   }
 }
 
+}
 @media screen and (max-width: 768px) {
   body {
     font-size: 8px;
