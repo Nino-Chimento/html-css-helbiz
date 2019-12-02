@@ -14,6 +14,9 @@ body {
 .text_align {
   text-align:center;
 }
+.text_right {
+  text-align: right;
+}
 .margin_top {
   margin-top: 60px;
 }
@@ -100,6 +103,7 @@ header {
 
 .img_bike {
   max-width: 200px;
+  color:lightgrey;
 }
 .bike .col-lg-5 h3{
   margin-top: 30px;
@@ -117,9 +121,29 @@ header {
   padding-left: 4px;
 }
 .color_padding {
-  background-color:  lightgrey;
+  background-color: #FAFAFA;
   padding: 50px 0;
 }
+.old_man_banner {
+  background-image: url(../img/HelbizBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -100%;
+  height: 500px;
+}
+.img_iphone {
+  width: 300px;
+}
+.container .col-lg-4 h2{
+  font-size: 3.5rem;
+}
+.container .col-lg-4 h4 {
+  font-size: 3rem;
+  margin-bottom: : 30px;
+}
+
+
+
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
     padding: 0 2%;
@@ -168,7 +192,7 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
-.margin_top {
+.margin_top_xs {
   margin-top: 30px;
 }
 }
