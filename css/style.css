@@ -4,8 +4,8 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: ;
 }
+
 
 .container_1000 {
   max-width: 1000px;
@@ -150,7 +150,14 @@ header {
 .padding_after_before_phone{
   padding-top: 300px;
 }
-@media screen and (max-width: 992px) and (min-width: 768px) {
+.forest {
+  width: 90%;
+  margin right: auto;
+  margin-left: auto;
+  height: 400px;
+}
+@media screen and (max-width:992px) and (min-width:768px)
+{
   .header-top {
     padding: 0 2%;
   }
@@ -169,7 +176,7 @@ header {
   }
 }
 
-}
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 8px;
