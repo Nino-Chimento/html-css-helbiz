@@ -173,6 +173,52 @@ header {
   color: white;
   font-size: 2.5em;
 }
+.city_phone {
+  width: 90%;
+  margin: 0 auto;
+}
+.ios_android {
+  background-color: #374858;
+  height: 400px;
+}
+.ios_android img{
+  width: 60%;
+  padding-top: 91px;;
+}
+.ios_android h2 {
+  font-size: 3em;
+  color: white;
+  padding-top: 30px;
+}
+.ios_android p {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.ios_android li {
+  font-size: 2em;
+  color: white;
+}
+.city {
+  background-image: url(../img/Cities-1500.jpg);
+  background-size: cover;
+  height: 400px;
+  padding-left:  30px;
+}
+.city h2 {
+  font-size: 3em;
+  color: white;
+  padding-top: 30px;
+}
+.city p {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.city a {
+  font-size: 2em;
+  color: white;
+  text-decoration: none;}
 @media screen and (max-width:992px) and (min-width:768px)
 {
   .header-top {
