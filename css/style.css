@@ -132,7 +132,7 @@ header {
   height: 500px;
 }
 .img_iphone {
-  width: 300px;
+  width: 400px;
 }
 .container .col-lg-4 h2{
   font-size: 3.5rem;
@@ -144,8 +144,12 @@ header {
 .container .col-lg-4 p{
   font-size: 1rem;
 }
-
-
+.padding_top_super{
+  padding-top: 200px;
+}
+.padding_after_before_phone{
+  padding-top: 300px;
+}
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
     padding: 0 2%;
@@ -173,9 +177,9 @@ header {
   .xs_display_block {
     display: block;
   }
-  .xs_display_none {
+  /* .xs_display_none {
     display: none;
-  }
+  } */
   .header-top {
     padding: 0 2%;
   }
