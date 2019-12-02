@@ -4,7 +4,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
+  background-color: ;
 }
 
 .container_1000 {
@@ -168,4 +168,7 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
+.margin_top {
+  margin-top: 30px;
+}
 }
