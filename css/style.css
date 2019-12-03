@@ -249,8 +249,36 @@ header {
   padding: 10px;
   font-size: 3em;
 }
+footer {
+  background-color: #000000;
+  margin-top: 40px;
+  width: 100%;
+  height: 600px;
+  color: white;
+}
+.foot  {
+  padding-top:  100px;
+}
+.foot h2 {
+  font-size: 3.5em;
+}
+.foot h3 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+.foot ul {
+  list-style: none;
+}
+.foot li {
+  margin-bottom: 20px;
+  font-size: 1em;
+  text-transform: uppercase;
 
+}
+.foot a {
+  color: lightgrey;
 
+}
   /* mediaquery */
 @media screen and (max-width:992px) and (min-width:768px)
 {
@@ -269,6 +297,9 @@ header {
   }
   .jumbo_text a img {
     width: 100%;
+  }
+  .margin_bottom_md {
+    margin-bottom: 30px;
   }
 }
 
@@ -302,5 +333,8 @@ header {
   }
 .margin_top_xs {
   margin-top: 30px;
+}
+.margin_bottom_xs{
+  margin-bottom: 30px;
 }
 }
