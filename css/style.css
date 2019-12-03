@@ -220,6 +220,38 @@ header {
   font-size: 2em;
   color: white;
   text-decoration: none;}
+
+.murales {
+  background-image: url(../img/Social-Banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+
+.enter_murales {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  background-color: white;
+  height: 200px;
+  width: 400px;
+}
+.enter_murales h2{
+  font-size: 3em;
+  margin-top: 40px;
+  color: #212529;
+}
+.enter_murales li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 3em;
+}
+
+
+  /* mediaquery */
 @media screen and (max-width:992px) and (min-width:768px)
 {
   .header-top {
