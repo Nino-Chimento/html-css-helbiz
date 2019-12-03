@@ -179,12 +179,13 @@ header {
 }
 .ios_android {
   background-color: #374858;
+  background-image: url(../img/HelbiZAPP.png);
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size: 60%;
   height: 400px;
 }
-.ios_android img{
-  width: 68%;
-  margin-bottom: 0;
-}
+
 .ios_android h2 {
   font-size: 3em;
   color: white;
